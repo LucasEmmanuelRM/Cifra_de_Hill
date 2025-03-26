@@ -18,13 +18,15 @@ void ajustar_texto(char *text, char *texto_ajustado);
 void cifra_hill(const char *entrada, const char *saida, const int chave[N][N]);
 
 
-///////////////////////////////// Instruções ///////////////////////////////////
-//                                                                            //
-// Compilar: gcc CifraHill.c -o CifraHill                                     //
-// Executar cifração: ./CifraHill -enc textoclaro.txt -out textocifrado.txt   //
-// Executar decifração: ./CifraHill -dec textocifrado.txt -out textoclaro.txt //
-//                                                                            //
-////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////// Instruções ////////////////////////////////////
+//                                                                               //
+// Compilar: gcc CifraHill.c -o CifraHill                                        //
+// Executar cifração: ./CifraHill -enc textoclaro.txt -out textocifrado.txt      //
+// Executar decifração: ./CifraHill -dec textocifrado.txt -out textoclaro.txt    //
+//                                                                               //
+// A chave é digitada pelo usuário! Ela deve ser composta de letras do alfabeto! //
+//                                                                               //
+///////////////////////////////////////////////////////////////////////////////////
 
 
 // Função principal que requisita os arquivos de entrada e saída, assim como a opção de cifrar ou decifrar o arquivo de entrada
